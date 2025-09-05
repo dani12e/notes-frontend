@@ -1,6 +1,5 @@
 // Replace this with your backend URL once deployed
-const BACKEND_URL = "https://your-backend-url.onrender.com";
-
+const BACKEND_URL = "https://notes-backend-1-nogk.onrender.com";
 export async function listNotes() {
   const res = await fetch(`${BACKEND_URL}/notes`);
   return res.json();
