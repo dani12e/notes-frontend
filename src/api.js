@@ -1,5 +1,5 @@
 // Replace this with your backend URL once deployed
-const BACKEND_URL = "http://localhost:8080";
+const BACKEND_URL = "https://your-backend-url.onrender.com";
 
 export async function listNotes() {
   const res = await fetch(`${BACKEND_URL}/notes`);
